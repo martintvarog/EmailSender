@@ -1,6 +1,3 @@
-import java.io.IOException;
-import java.net.Socket;
-import java.util.List;
 import EmailSender.EmailSender;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,

@@ -9,7 +9,7 @@ public class EmailSender {
      * the exception is not handled in the constructor.
      */
     public EmailSender(String host, int port) throws UnknownHostException, IOException {
-        socket = new Socket("smtp.utb.cz", 25);
+        socket = new Socket(host, port);
     }
     /*
      * sends email from an email address to an email address with some subject and text.
